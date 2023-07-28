@@ -2,10 +2,8 @@ openai
 Flask
 pandas
 numpy
-python-dotenv==0.21.0
 flask-cors
 matplotlib
 plotly
 scipy
 scikit-learn
-mysql-connector-python
