@@ -6,9 +6,6 @@ import numpy as np
 import pandas as pd
 import os
 from functools import wraps
-from dotenv import load_dotenv
-
-load_dotenv()
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ['SECRET_KEY']
